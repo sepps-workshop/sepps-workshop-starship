@@ -1,7 +1,7 @@
 {
   "name": "sepps-workshop-starship",
   "description": "One dark color theme for the Starship prompt in the sepp.med brand colors. WCAG AA verified.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "license": "MIT",
   "author": {
