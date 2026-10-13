@@ -88,7 +88,7 @@ A few things follow from the palette and are deliberate:
 
 - The directory is the one accented thing in the prompt: Sunset yellow and bold.
 - Every language and tool module is the same muted grey-blue. The palette has too few hues to give each language its own, and the symbol already says which one it is.
-- The prompt character is a green `❯` after a command that worked and a coral red `✗` after one that failed. The shape changes with the colour, so the state does not hang on the colour alone.
+- The prompt character is green after a command that worked and coral red after one that failed. It keeps Starship's `❯` in both cases.
 - Red is a signal only: a failed command and deleted files. It is a coral red, not the Racing Red of the logo, which does not reach a readable contrast on Darkblue.
 - Each git state has its own colour and shows a count, such as `!2` for two modified files. The brackets around them carry no colour and are drawn in your terminal's text colour.
 - `command_timeout` is raised from 500 ms to one second, so that a slow version check does not drop its module from the prompt.

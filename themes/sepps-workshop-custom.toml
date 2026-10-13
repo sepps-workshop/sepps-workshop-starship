@@ -38,7 +38,7 @@ deleted = "[✘$count](danger)"
 
 [character]
 success_symbol = "[❯](success)"
-error_symbol = "[✗](danger)"
+error_symbol = "[❯](danger)"
 
 [cmd_duration]
 style = "fg_muted"

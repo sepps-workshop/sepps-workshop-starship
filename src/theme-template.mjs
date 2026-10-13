@@ -166,8 +166,7 @@ function render(tokens, custom) {
     ]),
     table("character", [
       `success_symbol = "[❯](${style(roles.character_success)})"`,
-      // A failed command changes the shape as well as the colour.
-      `error_symbol = "[✗](${style(roles.character_error)})"`,
+      `error_symbol = "[❯](${style(roles.character_error)})"`,
     ]),
     table("cmd_duration", [
       `style = "${style(roles.duration)}"`,

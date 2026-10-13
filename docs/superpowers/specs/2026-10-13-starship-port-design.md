@@ -50,7 +50,7 @@ The language modules are the modules with a `version_format` key in `starship pr
 
 The custom file adds: the root `format` (line one: directory, git branch, git status, the language modules, command duration, `$fill`, time; line two: the character), `fill.symbol = " "` with no style, `time.disabled = false`, and compact formats for `cmd_duration` and `time`. The language modules keep Starship's own formats: several show more than a version (`python` the virtualenv, `terraform` the workspace, `pulumi` the stack), and one shared format would drop that.
 
-The error character is `✗`, not Starship's `❯` in another colour: the foundation's rule is never to rely on colour alone, and the two characters differ in nothing else. This departs from Vivid Life.
+The prompt character is Starship's `❯` for both states, coloured by `character_success` and `character_error`, as in Vivid Life. A first draft changed the error character to `✗`; the user chose the Vivid Life behaviour, which is proven in daily use.
 
 `command_timeout = 1000` in both files, as in Vivid Life: toolchain version checks can outlast the 500 ms default.
 

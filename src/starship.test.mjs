@@ -73,7 +73,7 @@ for (const file of Object.keys(themeFiles(tokens))) {
     const failed = starship(file, "prompt", "--status", "1");
     assert.equal(failed.stderr, "");
     assert.ok(
-      failed.stdout.includes(`${ansi(roles.character_error.color)}✗`),
+      failed.stdout.includes(`${ansi(roles.character_error.color)}❯`),
       `${file}: error character`,
     );
   });

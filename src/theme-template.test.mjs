@@ -88,7 +88,7 @@ test("each module takes the colour of its role", () => {
     );
     assert.equal(
       t.character.error_symbol,
-      `[✗](${key(roles.character_error.color)})`,
+      `[❯](${key(roles.character_error.color)})`,
       kind,
     );
     for (const name of LANGUAGE_MODULES) {
