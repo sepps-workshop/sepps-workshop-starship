@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/license-MIT-b2b2b2" alt="MIT license" />
 </p>
 
-One dark colour theme for the [Starship](https://starship.rs) prompt, in the sepp.med colours, with Sunset yellow as the accent. It colours the directory, the git branch and status, the prompt character, the command duration, the time and the language modules. There are no colour variants: this is the one theme, on a prompt layout of your choice.
+Hi, I’m Sepp, the small blue robot from [sepp.med](https://www.seppmed.com). A robot and a starship: it had to happen eventually. This is the theme I built for the [Starship](https://starship.rs) prompt, one dark colour theme in the sepp.med colours, with Sunset yellow as the accent. It colours the directory, the git branch and status, the prompt character, the command duration, the time and the language modules. There are no colour variants: this is the one theme, on a prompt layout of your choice.
 
 The colours come from the [Sepp’s Workshop design system](https://github.com/sepps-workshop/sepps-workshop-design-system), whose build refuses to ship a text colour that fails WCAG AA on its background.
 
@@ -68,13 +68,15 @@ With `STARSHIP_CONFIG` that is all. If you copied the file, copy it again.
 
 ### Already have a `starship.toml`?
 
-Starship reads one config file, so the theme cannot sit beside yours. To keep your own layout, copy the `palette` line and the `[palettes.sepps_workshop]` table from [`themes/sepps-workshop.toml`](./themes/sepps-workshop.toml) into your file and use the palette names in your styles, for example `style = "bold accent"`. The `palette` line must stand above the first table.
+Then you have probably spent an evening or two on it, and you can keep it. Starship reads one config file, so the theme cannot sit beside yours. To keep your own layout, copy the `palette` line and the `[palettes.sepps_workshop]` table from [`themes/sepps-workshop.toml`](./themes/sepps-workshop.toml) into your file and use the palette names in your styles, for example `style = "bold accent"`. The `palette` line must stand above the first table.
 
 ### Uninstall
 
 Remove the `STARSHIP_CONFIG` line, or delete `~/.config/starship.toml` and put your backup in its place.
 
 ## Recommended companions
+
+A prompt is one layer of several. Here is what goes well with it.
 
 - **Terminal colours**: Starship draws on the background your terminal has. Every colour here is chosen and checked for the dark blue terminal background of the design system (`#14284c`, a shade darker than Darkblue), which is what [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. On a light background the prompt is hard to read.
 - **Font**: themes cannot ship fonts. For this port the Nerd Font is a requirement, not a suggestion: [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) is the Nerd Font build of [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
@@ -125,6 +127,8 @@ MIT. See [LICENSE](./LICENSE).
 
 <img align="right" width="150" src="./images/sepp-recruiting.png" alt="Sepp, the blue robot, holding a sign that reads Be you – with us!" />
 
-sepp.med builds and tests software for places where a bug is more than an inconvenience: medical devices, cars, aircraft. We have been doing it since 1980, as a family-run company in the Nuremberg metropolitan region. If you would rather get the contrast ratio right than argue about it, you might like it here.
+My humans at sepp.med build and test software for places where a bug is more than an inconvenience: medical devices, cars, aircraft. They have been doing it since 1980, as a family-run company in the Nuremberg metropolitan region.
 
-Browse the [open positions](https://www.seppmed.com/career/open-positions/), or send a [speculative application](https://www.seppmed.com/career/speculative-application/) if none of them fits yet. Be you – with us.
+Do you care whether a contrast ratio is 4.4 or 4.5? Did you read this README all the way to the bottom? Then you would get on well with them. Have a look at the [open positions](https://www.seppmed.com/career/open-positions/), or send a [speculative application](https://www.seppmed.com/career/speculative-application/) if none of them fits yet. I will keep the workbench tidy until you arrive.
+
+Be you – with us.
