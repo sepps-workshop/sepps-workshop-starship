@@ -78,7 +78,7 @@ Remove the `STARSHIP_CONFIG` line, or delete `~/.config/starship.toml` and put y
 
 - **Terminal colours**: Starship draws on the background your terminal has. Every colour here is chosen and checked for the dark blue terminal background of the design system (`#14284c`, a shade darker than Darkblue), which is what [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. On a light background the prompt is hard to read.
 - **Font**: themes cannot ship fonts. For this port the Nerd Font is a requirement, not a suggestion: [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) is the Nerd Font build of [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
-- **Shell colours**: the prompt ends where your typing begins. For syntax highlighting on the command line there is [Sepp’s Workshop for fish](https://github.com/sepps-workshop/sepps-workshop-fish); a PowerShell port is planned.
+- **Shell colours**: the prompt ends where your typing begins. For syntax highlighting on the command line there are [Sepp’s Workshop for fish](https://github.com/sepps-workshop/sepps-workshop-fish) and [Sepp’s Workshop for PowerShell](https://github.com/sepps-workshop/sepps-workshop-powershell).
 
 ## How it is built
 
