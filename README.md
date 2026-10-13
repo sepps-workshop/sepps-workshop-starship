@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/license-MIT-b2b2b2" alt="MIT license" />
 </p>
 
-One dark colour theme for the [Starship](https://starship.rs) prompt, built on sepp.med Darkblue with Sunset yellow as the accent. It colours the directory, the git branch and status, the prompt character, the command duration, the time and the language modules. There are no colour variants: this is the one theme, on a prompt layout of your choice.
+One dark colour theme for the [Starship](https://starship.rs) prompt, in the sepp.med colours, with Sunset yellow as the accent. It colours the directory, the git branch and status, the prompt character, the command duration, the time and the language modules. There are no colour variants: this is the one theme, on a prompt layout of your choice.
 
 The colours come from the [Sepp’s Workshop design system](https://github.com/sepps-workshop/sepps-workshop-design-system), whose build refuses to ship a text colour that fails WCAG AA on its background.
 
@@ -76,7 +76,7 @@ Remove the `STARSHIP_CONFIG` line, or delete `~/.config/starship.toml` and put y
 
 ## Recommended companions
 
-- **Terminal colours**: Starship draws on the background your terminal has. Every colour here is chosen and checked for a Darkblue terminal background (`#0d3174` in the design system), which is what [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. On a light background the prompt is hard to read.
+- **Terminal colours**: Starship draws on the background your terminal has. Every colour here is chosen and checked for the dark blue terminal background of the design system (`#14284c`, a shade darker than Darkblue), which is what [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. On a light background the prompt is hard to read.
 - **Font**: themes cannot ship fonts. For this port the Nerd Font is a requirement, not a suggestion: [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) is the Nerd Font build of [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
 - **Shell colours**: the prompt ends where your typing begins. For syntax highlighting on the command line there is [Sepp’s Workshop for fish](https://github.com/sepps-workshop/sepps-workshop-fish); a PowerShell port is planned.
 
@@ -89,7 +89,7 @@ A few things follow from the palette and are deliberate:
 - The directory is the one accented thing in the prompt: Sunset yellow and bold.
 - Every language and tool module is the same muted grey-blue. The palette has too few hues to give each language its own, and the symbol already says which one it is.
 - The prompt character is green after a command that worked and coral red after one that failed. It keeps Starship's `❯` in both cases.
-- Red is a signal only: a failed command and deleted files. It is a coral red, not the Racing Red of the logo, which does not reach a readable contrast on Darkblue.
+- Red is a signal only: a failed command and deleted files. It is a coral red, not the Racing Red of the logo, which does not reach a readable contrast on a dark blue.
 - Each git state has its own colour and shows a count, such as `!2` for two modified files. The brackets around them carry no colour and are drawn in your terminal's text colour.
 - `command_timeout` is raised from 500 ms to one second, so that a slow version check does not drop its module from the prompt.
 

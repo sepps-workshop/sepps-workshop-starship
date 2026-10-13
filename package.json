@@ -1,6 +1,6 @@
 {
   "name": "sepps-workshop-starship",
-  "description": "One dark color theme for the Starship prompt on sepp.med Darkblue. WCAG AA verified.",
+  "description": "One dark color theme for the Starship prompt in the sepp.med brand colors. WCAG AA verified.",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -33,7 +33,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@sepps-workshop/design-system": "^0.8.0",
+    "@sepps-workshop/design-system": "^0.9.0",
     "prettier": "^3.9.9"
   }
 }
