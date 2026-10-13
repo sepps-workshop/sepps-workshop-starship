@@ -1,0 +1,39 @@
+{
+  "name": "sepps-workshop-starship",
+  "description": "One dark color theme for the Starship prompt on sepp.med Darkblue. WCAG AA verified.",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "sepp.med gmbh"
+  },
+  "homepage": "https://github.com/sepps-workshop/sepps-workshop-starship",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepps-workshop/sepps-workshop-starship.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sepps-workshop/sepps-workshop-starship/issues"
+  },
+  "keywords": [
+    "starship",
+    "starship-prompt",
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "wcag",
+    "accessibility",
+    "sepps-workshop"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test src/theme-template.test.mjs src/starship.test.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@sepps-workshop/design-system": "^0.8.0",
+    "prettier": "^3.9.9"
+  }
+}

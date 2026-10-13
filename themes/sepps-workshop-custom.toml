@@ -1,0 +1,212 @@
+# Sepp’s Workshop for Starship: custom prompt
+# Generated, do not edit by hand. Source: https://github.com/sepps-workshop/sepps-workshop-starship
+# The icons need a Nerd Font. Recommended: JetBrainsMono Nerd Font (https://www.nerdfonts.com/font-downloads)
+
+format = """
+$directory$git_branch$git_status$buf$bun$c$cmake$cobol$cpp$crystal$daml$dart$deno$dotnet$elixir$elm$erlang$fennel$fortran$gleam$golang$gradle$haskell$haxe$helm$java$julia$kotlin$lua$maven$nim$nodejs$ocaml$opa$package$perl$php$pixi$pulumi$purescript$python$quarto$raku$red$rlang$ruby$rust$scala$solidity$swift$terraform$typst$vagrant$vlang$xmake$zig$cmd_duration$fill$time
+$character"""
+
+command_timeout = 1000
+palette = "sepps_workshop"
+
+[palettes.sepps_workshop]
+accent = "#fbba00"
+info = "#80c7e7"
+success = "#a2d182"
+danger = "#ff897b"
+fg_muted = "#b6c1d5"
+warning = "#f59c00"
+
+[directory]
+style = "bold accent"
+
+[git_branch]
+style = "info"
+
+[git_status]
+format = "(\\[$all_status$ahead_behind\\] )"
+conflicted = "[=$count](warning)"
+ahead = "[⇡$count](fg_muted)"
+behind = "[⇣$count](fg_muted)"
+diverged = "[⇕⇡$ahead_count⇣$behind_count](fg_muted)"
+untracked = "[?$count](success)"
+stashed = "[\\$$count](fg_muted)"
+modified = "[!$count](info)"
+staged = "[+$count](warning)"
+renamed = "[»$count](info)"
+deleted = "[✘$count](danger)"
+
+[character]
+success_symbol = "[❯](success)"
+error_symbol = "[✗](danger)"
+
+[cmd_duration]
+style = "fg_muted"
+format = "[$duration]($style) "
+
+[fill]
+symbol = " "
+
+[time]
+disabled = false
+style = "fg_muted"
+format = "[$time]($style)"
+
+[buf]
+style = "fg_muted"
+
+[bun]
+style = "fg_muted"
+
+[c]
+style = "fg_muted"
+
+[cmake]
+style = "fg_muted"
+
+[cobol]
+style = "fg_muted"
+
+[cpp]
+style = "fg_muted"
+
+[crystal]
+style = "fg_muted"
+
+[daml]
+style = "fg_muted"
+
+[dart]
+style = "fg_muted"
+
+[deno]
+style = "fg_muted"
+
+[dotnet]
+style = "fg_muted"
+
+[elixir]
+style = "fg_muted"
+
+[elm]
+style = "fg_muted"
+
+[erlang]
+style = "fg_muted"
+
+[fennel]
+style = "fg_muted"
+
+[fortran]
+style = "fg_muted"
+
+[gleam]
+style = "fg_muted"
+
+[golang]
+style = "fg_muted"
+
+[gradle]
+style = "fg_muted"
+
+[haskell]
+style = "fg_muted"
+
+[haxe]
+style = "fg_muted"
+
+[helm]
+style = "fg_muted"
+
+[java]
+style = "fg_muted"
+
+[julia]
+style = "fg_muted"
+
+[kotlin]
+style = "fg_muted"
+
+[lua]
+style = "fg_muted"
+
+[maven]
+style = "fg_muted"
+
+[nim]
+style = "fg_muted"
+
+[nodejs]
+style = "fg_muted"
+
+[ocaml]
+style = "fg_muted"
+
+[opa]
+style = "fg_muted"
+
+[package]
+style = "fg_muted"
+
+[perl]
+style = "fg_muted"
+
+[php]
+style = "fg_muted"
+
+[pixi]
+style = "fg_muted"
+
+[pulumi]
+style = "fg_muted"
+
+[purescript]
+style = "fg_muted"
+
+[python]
+style = "fg_muted"
+
+[quarto]
+style = "fg_muted"
+
+[raku]
+style = "fg_muted"
+
+[red]
+style = "fg_muted"
+
+[rlang]
+style = "fg_muted"
+
+[ruby]
+style = "fg_muted"
+
+[rust]
+style = "fg_muted"
+
+[scala]
+style = "fg_muted"
+
+[solidity]
+style = "fg_muted"
+
+[swift]
+style = "fg_muted"
+
+[terraform]
+style = "fg_muted"
+
+[typst]
+style = "fg_muted"
+
+[vagrant]
+style = "fg_muted"
+
+[vlang]
+style = "fg_muted"
+
+[xmake]
+style = "fg_muted"
+
+[zig]
+style = "fg_muted"
